@@ -212,8 +212,8 @@ hr{
     .contact_info{
         display: inline-block;
     }
-    .contact_box ul li{
-        padding: 20px 50px;
+    .contact_box {
+        text-align: center;
     }
 }
 /* mobie view end */
