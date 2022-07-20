@@ -8,6 +8,7 @@ body{
     display: flex;    
     margin: 0 auto;  
     margin-bottom: 100px;
+    border-radius: 20px;
 }
 .banner_part{
     background-color: #161616; 
@@ -42,11 +43,33 @@ a{
     padding: 16px 25px;
     border-radius: 5px;
 }
-.banner_image img{
+.banner_image{
+    margin: 0 auto;
+    position: relative;
+ }
+ .banner_image img{
     width: 90%;
 }
+ .banner_part:hover .banner_image img{
+    width: 100%;
+    transition: transform 1s ease-out 0.1s;
+ }
 .fa-arrow-right{
     margin-left: 10px;
+}
+.football{
+    position: relative;
+    height: 10%;
+    width: 10%;
+    left: 90px;
+    transition: transform 1s ease-out 0.2s;
+}
+.banner_part:hover .football{
+    transform: translate(-400px);
+}
+.football img{
+    height: 100%;
+    width: 100%;
 }
 /*  banner part end */
 
