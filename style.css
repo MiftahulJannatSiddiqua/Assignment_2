@@ -151,5 +151,25 @@ hr{
 .contact_box{
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 50px;
+}
+.contact_iteam{
+    display: flex;
+    width:20%;  
+    margin: 0 auto;
+}
+.contact_me{
+    height: 50px;
+    width: 50px;
+    background-color:#B9B9B9 ;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.fa-facebook-f,
+.fa-instagram,
+.fa-twitter{
+    color: #161616;
+    font-size:25px;
+    padding: 12px; 
 }
 /* footer end */
