@@ -4,7 +4,7 @@ body{
 }
 /*  banner part strat  */
 .container{   
-    width: 85%;
+    width: 90%;
     display: flex;    
     margin: 0 auto;  
     margin-bottom: 100px;
@@ -61,8 +61,8 @@ a{
     position: relative;
     height: 10%;
     width: 10%;
-    left: 90px;
-    transition: transform 1s ease-out 0.2s;
+    left: 98px;
+    transition: transform 1s ease-out 0.1s;
 }
 .banner_part:hover .football{
     transform: translate(-400px);
