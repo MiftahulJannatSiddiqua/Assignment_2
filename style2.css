@@ -270,6 +270,13 @@ hr{
     .view_all{
         visibility: visible;
     }
+    .contact_box ul li a{
+        padding: 0px;
+        margin: 7px;
+    }
+    .contact_box  {
+          width: 100%;
+    }
     
 }
 /* tab view end */
